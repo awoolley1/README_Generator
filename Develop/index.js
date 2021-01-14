@@ -15,32 +15,27 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'Description',
-        message: 'What is the title of your application?',
-      },
-      {
-        type: 'input',
-        name: 'Table of Contents',
-        message: 'What is the title of your application?',
+        message: 'What is the description of your application?',
       },
       {
         type: 'input',
         name: 'Installation',
-        message: 'What is the title of your application?',
+        message: 'Write installation instructions for your application',
       },
       {
         type: 'input',
         name: 'Usage',
-        message: 'What is the title of your application?',
+        message: 'Write usage instructions for your application',
       },
       {
         type: 'input',
         name: 'Contributing',
-        message: 'What is the title of your application?',
+        message: 'What are contribution guidelines for your application?',
       },
       {
         type: 'input',
         name: 'Tests',
-        message: 'What is the title of your application?',
+        message: 'What are test instructions for your application?',
       },
       {
         type: 'list',
