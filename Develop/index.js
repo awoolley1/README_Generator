@@ -54,8 +54,8 @@ inquirer.prompt([
    
   ]).then(function(responses){
     data = `
-  # Title: ${responses.Title}
-  ###### Table of Contents:
+  # **Title: ${responses.Title}**
+  ###### **Table of Contents:**
   1. [Description](#descr)
   2. [Installation](#inst)
   3. [Usage](#usage)

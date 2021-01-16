@@ -1,16 +1,31 @@
-# Title: ${responses.Title}
-###### Table of Contents:
-1. [Description](#descr)
-2. [Installation](#inst)
-3. [Usage](#usage)
-4. [Contributing](#cont)
-5. [Tests](#test)
-6. [Licenses](#lice)
-7. [Questions](#ques)
-### Description: ${responses.Description}
-### Installation: ${responses.Installation}
-### Usage: ${responses.Usage}
-### Contributing: ${responses.Contributing}
-### Tests: ${responses.Tests}
-##### License: ${responses.License}
-##### Questions: contact me on GitHub @ ${responses.GitHub} or by Email at ${responses.Email}
+# **Title: ${responses.Title}**
+
+#### **Table of Contents:**
+1. [*Description*](#description "Jump to Description")
+2. [*Installation*](#installation "Jump to Installation")
+3. [*Usage*](#usage "Jump to Usage")
+4. [*Contributing*](#contributing "Jump to Contributing")
+5. [*Tests*](#tests "Jump to Tests")
+6. [*Licenses*](#license "Jump to Licenses")
+7. [*Questions*](#questions "Jump to Questions")
+
+### **Description**
+${responses.Description}
+
+### **Installation**
+${responses.Installation}
+
+### **Usage**
+${responses.Usage}
+
+### **Contributing**
+${responses.Contributing}
+
+### **Tests**
+${responses.Tests}
+
+##### **License**
+${responses.License}
+
+##### **Questions**
+Contact me on GitHub @ ${responses.GitHub} or by Email at ${responses.Email}
