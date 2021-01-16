@@ -78,8 +78,8 @@ inquirer.prompt([
 
 ##### License: ${responses.License}
 
-##### Questions: contact me on GitHub @ ${responses.GitHub} or by Email at ${responses.Email}
-    `
+##### Questions: contact me on GitHub @ ${responses.GitHub} or by Email @ ${responses.Email}
+    `;
 
    fs.writeFile('README.md', data, function(error){
     if(error){
@@ -88,7 +88,8 @@ inquirer.prompt([
       console.log("no error")
     }
    })
-  }
+  })
+  
 
 
 // TODO: Create a function to write README file
