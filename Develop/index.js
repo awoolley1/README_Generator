@@ -39,7 +39,7 @@ inquirer.prompt([
         type: 'list',
         name: 'License',
         message: 'Select a license type?',
-        choices: ['v1', 'v2', 'v3'],
+        choices: ['MIT', 'Apache', 'v3'],
       },
       {
         type: 'input',
@@ -50,22 +50,52 @@ inquirer.prompt([
         type: 'input',
         name: 'Email',
         message: 'What is your email address?',
-      },
+      }
    
-  ])
-  .then((data) => {
-    const filename = ``;
+  ]).then(function(responses){
+    data = `
+# Title: ${responses.Title}
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-      err ? console.log(err) : console.log('Success!')
-    );
-  });
+###### Table of Contents:
+1. Description: 
+2. Installation: 
+3. Usage: 
+4. Contributing: 
+5. Tests: 
+6. Licenses: 
+7. Questions
+
+
+### Description: ${responses.Description}
+
+### Installation: ${responses.Installation}
+ 
+### Usage: ${responses.Usage}
+
+### Contributing: ${responses.Contributing}
+
+### Tests: ${responses.Tests}
+
+##### License: ${responses.License}
+
+##### Questions: contact me on GitHub @ ${responses.GitHub} or by Email at ${responses.Email}
+    `
+
+   fs.writeFile('README.md', data, function(error){
+    if(error){
+      console.log(error)
+    }else{
+      console.log("no error")
+    }
+   })
+  }
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
-init();
+// init();
