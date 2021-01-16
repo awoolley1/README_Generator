@@ -1,25 +1,25 @@
 # Title: ${response.Title}
 
 ###### Table of Contents:
-1. Description: 
-2. Installation: 
-3. Usage: 
-4. Contributing: 
-5. Tests: 
-6. Licenses: 
-7. Questions
+1. [Description] (#descr)
+2. [Installation] (#inst)
+3. [Usage] (#usage)
+4. [Contributing] (#cont)
+5. [Tests] (#test)
+6. [Licenses] (#lice)
+7. [Questions] (#ques)
 
 
-### Description: ${response.Description}
+### <a name="descr">Description: ${responses.Description}</a>
 
-### Installation: ${response.Installation}
+### <a name="inst">Installation: ${responses.Installation}</a>
  
-### Usage: ${response.Usage}
+### <a name="usage">Usage: ${responses.Usage}</a>
 
-### Contributing: ${response.Contributing}
+### <a name="cont">Contributing: ${responses.Contributing}</a>
 
-### Tests: ${response.Tests}
+### <a name="test">Tests: ${responses.Tests}</a>
 
-##### License: ${response.License}
+##### <a name="lice">License: ${responses.License}</a>
 
-##### Questions: contact me on GitHub @ ${response.GitHub} or by Email at ${responses.Email}
+##### <a name="ques">Questions: contact me on GitHub @ ${responses.GitHub} or by Email at ${responses.Email}</a>
