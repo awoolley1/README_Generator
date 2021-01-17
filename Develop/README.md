@@ -1,5 +1,5 @@
 
-# **Title: fsgfg**
+# **Title: README markdown Generator**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 #### **Table of Contents:**
@@ -12,23 +12,25 @@
 7. [*Questions*](#questions: "Jump to Questions")
   
 ### **Description:**
-dgg
+This application will automatically create a README.md file using inputs provided by a project developer.
+
+[Screencastify demo link:](https://drive.google.com/file/d/1gNBQxQpNK_F3XOYBFhNycVY_TyALvbJw/view)
   
 ### **Installation:**
-dgdsgh
+Run ‘npm install x’ in the command line to install requisite packages 
   
 ### **Usage:**
-fgdsgd
+Run ‘node  index.js’ at the command line to begin the process.  Fill in each prompt and the file will generate automatically.
   
 ### **Contributing:**
-dsgfsdgfs
+Feel free to fork and contribute! Badges will need to be added for additional license to make the application more inclusive. 
   
 ### **Tests:**
-dgdg
+Execute ‘npm run test’ in the command line.
   
 ### **License:**
 Apache
   
 ### **Questions:**
-Contact me on GitHub @ dgdg or by Email at dsgdsg
+Contact me on GitHub @ awoolley1 or by Email at name@emailhost.com
 
